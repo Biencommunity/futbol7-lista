@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Futbol 7 - Lista de Jugadores</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  h1 { color: #1f8a3b; }
+  code, pre {
+    background: rgba(127,127,127,0.15);
+    border-radius: 6px;
+    padding: 2px 6px;
+  }
+  pre { padding: 12px; overflow-x: auto; }
+  .badge {
+    display: inline-block;
+    background: #1f8a3b;
+    color: #fff;
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 0.85em;
+    margin-bottom: 16px;
+  }
+  a { color: #1f8a3b; }
+</style>
+</head>
+<body>
+  <span class="badge">Plugin de WordPress</span>
+  <h1>Futbol 7 - Lista de Jugadores</h1>
+  <p>
+    Formulario para que hasta 16 jugadores se apunten a un partido de futbol 7.
+    Cada jugador puede borrar solo su propia inscripcion; los administradores del
+    sitio pueden editar la fecha, la hora y borrar a cualquiera. La lista se
+    actualiza sola cada pocos segundos.
+  </p>
+  <p>
+    Este proyecto se distribuye como un <strong>plugin de WordPress</strong>
+    (necesita base de datos y roles de usuario, algo que GitHub Pages no ofrece
+    por si solo). Esta pagina es solo la ficha informativa del repositorio.
+  </p>
+  <h2>Instalacion</h2>
+  <ol>
+    <li>Descarga el codigo desde el <a href="https://github.com/">repositorio de GitHub</a>.</li>
+    <li>Comprime la carpeta <code>futbol7-lista/</code> en un <code>.zip</code>.</li>
+    <li>En WordPress: <em>Plugins &gt; Anadir nuevo &gt; Subir plugin</em>, sube el zip y actívalo.</li>
+    <li>Anade el shortcode <code>[futbol7_lista]</code> en cualquier pagina.</li>
+  </ol>
+  <p>Detalles completos en el <code>README.md</code> del repositorio.</p>
+</body>
+</html>
